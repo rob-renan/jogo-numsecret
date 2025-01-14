@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 20;
+let numeroLimite = 100;
 let numeroSecreto = gerarAleatorio();
 let tentativas = 1;
 
@@ -69,4 +69,3 @@ inputChute.addEventListener('keypress', function(event) {
         verificarChute();
     }
 });
-
